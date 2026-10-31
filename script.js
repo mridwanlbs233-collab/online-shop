@@ -13,8 +13,8 @@ const products = [
     icon: "👟",
     desc: "sepatu converse nyaman digunakan dan tampilan jadi bagus untuk style anak muda. ",
     images: [
-      { src: "sneakers1.png", desc: "Tampak samping sepatu" },
-      { src: "sneakers2.png", desc: "Tampak atas sepatu" },
+      { src: "sneakers1.png", desc: "Tampilan samping sepatu" },
+      { src: "sneakers2.png", desc: "Tampilan atas sepatu" },
       { src: "sneakers3.png", desc: "Detail sol sepatu" },
     ],
   },
@@ -26,9 +26,9 @@ const products = [
     icon: "👟",
     desc: "bahan bagus dan untuk sol sangat empuk sehingga untuk digunakan sebagai joging sangat enak.",
     images: [
-      { src: "foto foto produk/sport1.png", desc: "Tampak samping sepatu lari" },
-      { src: "foto foto produk/sport2.png", desc: "Tampak depan" },
-      { src: "foto foto produk/sport3.png", desc: "Detail bantalan sol" },
+      { src: "sport1.png", desc: "dilihat dari samping sepatu lari" },
+      { src: "sport2.png", desc: "dilihat dari depan" },
+      { src: "sport3.png", desc: "Detail bantalan sol" },
     ],
   },
   // referensi foto baju https://www.meshy.ai/3d-models/TShirt-019f9c72-5db2-7e5b-b75c-1eca762fb824
@@ -39,9 +39,9 @@ const products = [
     icon: "👕",
     desc: "Kaos katun polos dan kaos adem sangat digunakan ketika diluar rumah.",
     images: [
-      { src: "foto foto produk/baju1.png", desc: "Kaos tampak depan" },
-      { src: "foto foto produk/baju2.png", desc: "Kaos tampak belakang" },
-      { src: "foto foto produk/baju3.png", desc: "Detail bahan katun" },
+      { src: "baju1.png", desc: "Kaos dari depan" },
+      { src: "baju2.png", desc: "Kaos dari belakang" },
+      { src: "baju3.png", desc: "Detail bahan katun" },
     ],
   },
   // referensi foto topi https://www.meshy.ai/3d-models/Hat-019d6527-6f18-7dd3-917a-41fa6c678c5d
@@ -52,9 +52,9 @@ const products = [
     icon: "🧢",
     desc: "Topi kekinian dengan style dan warna yang bagus untuk dibawa kemana mana.",
     images: [
-      { src: "foto foto produk/topi1.png", desc: "Topi tampak depan" },
-      { src: "foto foto produk/topi2.png", desc: "Topi tampak samping" },
-      { src: "foto foto produk/topi3.png", desc: "Detail pengatur ukuran" },
+      { src: "topi1.png", desc: "Topi dari depan" },
+      { src: "topi2.png", desc: "Topi dilihat dari samping" },
+      { src: "topi3.png", desc: "Detail ukuran belakang" },
     ],
   },
   // referensi foto tas https://www.meshy.ai/3d-models/bag-019da205-0af8-778c-b1d0-738910ba728b
@@ -65,9 +65,9 @@ const products = [
     icon: "🎒",
     desc: "tas sandang berwarna merah bagus untuk dibawa kemana mana.",
     images: [
-      { src: "foto foto produk/tas1.png", desc: "Ransel tampak depan" },
-      { src: "foto foto produk/tas2.png", desc: "Bagian dalam ransel" },
-      { src: "foto foto produk/tas3.png", desc: "Detail tali dan punggung" },
+      { src: "tas1.png", desc: "Ransel dari depan" },
+      { src: "tas2.png", desc: "Bagian dalam ransel" },
+      { src: "tas3.png", desc: "Detail tali dan punggung" },
     ],
   },
   // referensi foto jam https://www.meshy.ai/3d-models/Apple-Watch-019b5a02-552f-7631-8a49-5cd4e12852d8
@@ -78,9 +78,35 @@ const products = [
     icon: "⌚",
     desc: "Jam tangan digital dengan beberapa fitur sangat rekomended untuk digunakan.",
     images: [
-      { src: "foto foto produk/jam1.png", desc: "Jam tangan tampak depan" },
-      { src: "foto foto produk/jam2.png", desc: "Tampak samping" },
-      { src: "foto foto produk/jam3.png", desc: "Detail tali kulit" },
+      { src: "jam1.png", desc: "Jam tangan dari depan" },
+      { src: "jam2.png", desc: "Diliat dari samping" },
+      { src: "jam3.png", desc: "Detail tali kulit" },
+    ],
+  },
+   // referensi foto Hoodie https://www.meshy.ai/3d-models/Blue-Hoodie-019831fe-0f0c-7811-bf2d-b67e83d97ef1
+  {
+    id: 7,
+    name: "Hoodie",
+    price: 200000,
+    icon: "",
+    desc: "Pakaian yang membantu untuk menghangatkan badan ketika sedang kedinginan dan cocok untuk dipakai berpergian.",
+    images: [
+      { src: "hoodie1.png", desc: "Hoodie tampak depan" },
+      { src: "hoodie2.png", desc: "Hoodie samping" },
+      { src: "hoodie3.png", desc: "diliat dari dekat" },
+    ],
+  },
+   // referensi foto trofi https://www.meshy.ai/3d-models/World-Cup-019f9c64-45ef-7487-900b-6097eda691e3
+  {
+    id: 7,
+    name: "Trofi Piala",
+    price: 100000000,
+    icon: "",
+    desc: "trofi piala untuk ajang olahraga.",
+    images: [
+      { src: "trofi1.png", desc: "Trofi dilihat dari depan" },
+      { src: "trofi2.png", desc: "Trofi dari samping" },
+      { src: "trofi3.png", desc: "Detail trofi" },
     ],
   },
 ];
