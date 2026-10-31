@@ -13,9 +13,9 @@ const products = [
     icon: "👟",
     desc: "sepatu converse nyaman digunakan dan tampilan jadi bagus untuk style anak muda. ",
     images: [
-      { src: "foto foto produk/sneakers1.png", desc: "Tampak samping sepatu" },
-      { src: "foto foto produk/sneakers2.png", desc: "Tampak atas sepatu" },
-      { src: "foto foto produk/sneakers3.png", desc: "Detail sol sepatu" },
+      { src: "sneakers1.png", desc: "Tampak samping sepatu" },
+      { src: "sneakers2.png", desc: "Tampak atas sepatu" },
+      { src: "sneakers3.png", desc: "Detail sol sepatu" },
     ],
   },
   // referensi foto sepatu https://www.meshy.ai/id/posts/beige-knit-running-shoe-019fcc7d-c2bc-757b-8eef-06d370ea688e
